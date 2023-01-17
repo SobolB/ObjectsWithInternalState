@@ -17,6 +17,7 @@ class RadioTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testPrev() {
         Radio radio = new Radio();
