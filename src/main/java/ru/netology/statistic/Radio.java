@@ -31,10 +31,6 @@ public class Radio {
     }
 
     public void setCurrentStation(int currentStation) {
-        if (currentStation < 0) {
-        }
-        if (currentStation > maxStation) {
-        }
         this.currentStation = currentStation;
     }
 
@@ -44,10 +40,6 @@ public class Radio {
     }
 
     public void setCurrentVolume(int currentVolume) {
-        if (currentVolume < 0) {
-        }
-        if (currentVolume > 10) {
-        }
         this.currentVolume = currentVolume;
     }
 
